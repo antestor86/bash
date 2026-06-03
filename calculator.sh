@@ -1,0 +1,9 @@
+#!/bin/bash
+
+read -p "write date of birth: " birthdate
+
+current_year=$(date +%Y)
+
+agե=$((current_year - birthdate))
+
+echo $age
